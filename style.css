@@ -1,4 +1,38 @@
-html, body {
-  height: 100%;
-  width: 100%;
+html {
+/* Use a darker shade of blue, like blue gray, like meh*/
+  background-color: #2c5f78;
+/* Dont use pure white */
+  color: #DDDDDD
+}
+
+h1 {
+/*   background-color: purple; */
+  max-width: 200px;
+  padding: 10px;
+/*   border: 10px solid blue; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.description {
+/*   background-color: red; */
+  max-width: 500px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 0px auto;
+  margin-bottom: 30px;
+/*   border: 10px solid blue; */
+  text-align: center;
+}
+
+.link-button {
+  background-color: #DDDDDD;
+  color: #2c5f78;
+  max-width: 250px;
+  padding: 15px;
+  margin: 20px auto;
+/*   border: 10px solid blue; */
+  text-align: center;
 }
